@@ -44,7 +44,7 @@
             this.txbReEnterPass = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnCancel2 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -196,24 +196,24 @@
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // btnCancel2
+            // btnCancel
             // 
-            this.btnCancel2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel2.Location = new System.Drawing.Point(394, 418);
-            this.btnCancel2.Name = "btnCancel2";
-            this.btnCancel2.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel2.TabIndex = 6;
-            this.btnCancel2.Text = "Cancel";
-            this.btnCancel2.UseVisualStyleBackColor = true;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.Location = new System.Drawing.Point(394, 418);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 6;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // fAccountProfile
             // 
             this.AcceptButton = this.btnUpdate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.btnCancel2;
+            this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(520, 450);
-            this.Controls.Add(this.btnCancel2);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -255,6 +255,6 @@
         private System.Windows.Forms.TextBox txbReEnterPass;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnCancel2;
+        private System.Windows.Forms.Button btnCancel;
     }
 }
