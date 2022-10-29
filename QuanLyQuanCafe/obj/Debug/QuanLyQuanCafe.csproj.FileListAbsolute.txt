@@ -10,3 +10,4 @@ C:\Users\DUC\OneDrive\Desktop\DemoQuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\o
 C:\Users\DUC\OneDrive\Desktop\DemoQuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
 C:\Users\DUC\OneDrive\Desktop\DemoQuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
 C:\Users\DUC\OneDrive\Desktop\DemoQuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableManager.resources
+C:\Users\DUC\OneDrive\Desktop\DemoQuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources

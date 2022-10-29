@@ -16,5 +16,16 @@ namespace QuanLyQuanCafe
         {
             InitializeComponent();
         }
+
+        private void InforToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fAccountProfile f = new fAccountProfile();
+            f.ShowDialog();
+        }
+
+        private void LogoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
