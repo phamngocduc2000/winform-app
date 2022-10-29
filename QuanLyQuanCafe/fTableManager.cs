@@ -19,6 +19,7 @@ namespace QuanLyQuanCafe
 
         private void InforToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Console.WriteLine(234);
             fAccountProfile f = new fAccountProfile();
             f.ShowDialog();
         }
