@@ -37,6 +37,11 @@ namespace QuanLyQuanCafe
             {
                 e.Cancel = true;
             }
+
+            if (MessageBox.Show("Do You Want Exit The Program?", "Notify", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
