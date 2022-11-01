@@ -46,14 +46,14 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.btnSwitchTable = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nmDiscount = new System.Windows.Forms.NumericUpDown();
             this.btnDiscount = new System.Windows.Forms.Button();
             this.btnTotal = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmFoodCount)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmDiscount)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -65,7 +65,7 @@
             this.lịchSửToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(816, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(816, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,7 +74,7 @@
             this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thôngToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 26);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // thôngToolStripMenuItem
@@ -88,27 +88,27 @@
             this.InforToolStripMenuItem,
             this.LogoutToolStripMenuItem});
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(157, 24);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(157, 26);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông Tin Tài Khoản";
             // 
             // InforToolStripMenuItem
             // 
             this.InforToolStripMenuItem.Name = "InforToolStripMenuItem";
-            this.InforToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.InforToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.InforToolStripMenuItem.Text = "Thông Tin Cá Nhân";
             this.InforToolStripMenuItem.Click += new System.EventHandler(this.InforToolStripMenuItem_Click);
             // 
             // LogoutToolStripMenuItem
             // 
             this.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem";
-            this.LogoutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.LogoutToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.LogoutToolStripMenuItem.Text = "Đăng Xuất";
             this.LogoutToolStripMenuItem.Click += new System.EventHandler(this.LogoutToolStripMenuItem_Click);
             // 
             // lịchSửToolStripMenuItem
             // 
             this.lịchSửToolStripMenuItem.Name = "lịchSửToolStripMenuItem";
-            this.lịchSửToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.lịchSửToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
             this.lịchSửToolStripMenuItem.Text = "Lịch Sử";
             // 
             // panel1
@@ -186,7 +186,7 @@
             // 
             this.panel3.Controls.Add(this.comboBox3);
             this.panel3.Controls.Add(this.btnSwitchTable);
-            this.panel3.Controls.Add(this.numericUpDown1);
+            this.panel3.Controls.Add(this.nmDiscount);
             this.panel3.Controls.Add(this.btnDiscount);
             this.panel3.Controls.Add(this.btnTotal);
             this.panel3.Location = new System.Drawing.Point(466, 376);
@@ -211,12 +211,12 @@
             this.btnSwitchTable.Text = "Chuyển Bàn";
             this.btnSwitchTable.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // nmDiscount
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(163, 33);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(75, 22);
-            this.numericUpDown1.TabIndex = 4;
+            this.nmDiscount.Location = new System.Drawing.Point(163, 33);
+            this.nmDiscount.Name = "nmDiscount";
+            this.nmDiscount.Size = new System.Drawing.Size(75, 22);
+            this.nmDiscount.TabIndex = 4;
             // 
             // btnDiscount
             // 
@@ -256,7 +256,7 @@
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nmFoodCount)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmDiscount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -282,7 +282,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button btnSwitchTable;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nmDiscount;
         private System.Windows.Forms.Button btnDiscount;
         private System.Windows.Forms.Button btnTotal;
     }
